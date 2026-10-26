@@ -1,0 +1,76 @@
+1
+00:00:00,150 --> 00:00:04,150
+Yeah, I think there is limited use
+in the tokenised assets, right?
+
+2
+00:00:04,150 --> 00:00:07,240
+If you don't have the tokenised
+workflows around it, right?
+
+3
+00:00:07,240 --> 00:00:08,540
+So if you think about,
+
+4
+00:00:09,050 --> 00:00:10,650
+like, I remember some of the use case
+
+5
+00:00:10,650 --> 00:00:13,700
+we've done with Project Acacia and Arturo,
+
+6
+00:00:13,700 --> 00:00:17,610
+which was about tokenising
+invoices, for example.
+
+7
+00:00:17,610 --> 00:00:20,410
+If you think about an invoice that is tokenised,
+okay, that's what?
+
+8
+00:00:20,410 --> 00:00:24,570
+A PDF document that has been
+digitalised into a token.
+
+9
+00:00:24,570 --> 00:00:26,230
+What's the value out of it?
+
+10
+00:00:26,230 --> 00:00:28,570
+The value comes from
+the promise of a payment.
+
+11
+00:00:28,570 --> 00:00:30,600
+An invoice is a promise
+of a payment, right?
+
+12
+00:00:30,730 --> 00:00:32,890
+So if you start thinking into workflows,
+
+13
+00:00:32,890 --> 00:00:35,050
+like, oh, now I see this
+
+14
+00:00:35,980 --> 00:00:38,300
+tokenised asset, which is an invoice,
+
+15
+00:00:38,300 --> 00:00:41,050
+as a process, as a promise of payment,
+
+16
+00:00:41,610 --> 00:00:43,730
+then now I can understand
+that there will be
+
+17
+00:00:45,400 --> 00:00:49,000
+process attached to it that will deliver
+some value to my use cases.

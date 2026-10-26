@@ -1,0 +1,92 @@
+1
+00:00:00,160 --> 00:00:03,450
+We've always known that
+tokenisation is the future.
+
+2
+00:00:03,450 --> 00:00:06,250
+Real-world asset tokenisation
+has been a very hot topic.
+
+3
+00:00:06,250 --> 00:00:08,300
+It's been something a lot of people want to do.
+
+4
+00:00:08,300 --> 00:00:10,250
+But the question has always been:
+how do we do this?
+
+5
+00:00:10,250 --> 00:00:10,700
+Yeah.
+
+6
+00:00:10,730 --> 00:00:14,570
+And that's very much why Tokeniser exists.
+
+7
+00:00:14,570 --> 00:00:17,290
+It's meant to be that gateway,
+that ability for those issuers.
+
+8
+00:00:17,290 --> 00:00:21,290
+And as we've seen with our experience
+with companies, and soon to be in
+
+9
+00:00:21,290 --> 00:00:23,800
+working with funds and trustees
+on the same matter,
+
+10
+00:00:23,800 --> 00:00:27,330
+we want to give them a platform
+that's familiar, easy to use,
+
+11
+00:00:27,330 --> 00:00:31,300
+that very much traditional,
+in this sense, Web 2.0 style interface,
+
+12
+00:00:31,300 --> 00:00:35,810
+but at the same time is
+powered by and enables them
+
+13
+00:00:35,810 --> 00:00:38,290
+to essentially tokenise their assets.
+
+14
+00:00:38,290 --> 00:00:42,530
+So it makes it easy for the issuers
+to essentially get onto
+
+15
+00:00:42,530 --> 00:00:44,250
+the Redbelly Network.
+
+16
+00:00:44,250 --> 00:00:48,570
+It makes it easy for their shareholders,
+note holders, unit holders,
+
+17
+00:00:48,570 --> 00:00:51,650
+whoever has invested in these issuers,
+to get onto the Redbelly Network.
+
+18
+00:00:51,650 --> 00:00:54,650
+It makes it easy for those tokens
+that have been minted
+
+19
+00:00:54,650 --> 00:00:56,250
+and issued via the Tokeniser platform
+
+20
+00:00:56,250 --> 00:00:58,400
+to be transacted on the Redbelly Network.

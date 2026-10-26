@@ -1,0 +1,86 @@
+1
+00:00:00,190 --> 00:00:03,870
+What we did back in 2019 was to define
+
+2
+00:00:06,000 --> 00:00:07,760
+an accountable consensus version,
+
+3
+00:00:07,760 --> 00:00:09,600
+which means that, okay, if you cannot solve
+
+4
+00:00:09,600 --> 00:00:11,680
+consensus, which means that you probably
+
+5
+00:00:11,680 --> 00:00:14,080
+have hackers among the participants
+
+6
+00:00:14,080 --> 00:00:15,520
+that are trying to double spend.
+
+7
+00:00:15,520 --> 00:00:18,390
+And that's how you couldn't solve consensus,
+
+8
+00:00:19,090 --> 00:00:21,680
+then what you can do, if you truly solve
+
+9
+00:00:21,680 --> 00:00:23,280
+the accountable consensus problem,
+
+10
+00:00:23,280 --> 00:00:24,890
+is that you can identify who they are.
+
+11
+00:00:25,570 --> 00:00:26,210
+[Host] Interesting.
+
+12
+00:00:26,210 --> 00:00:28,610
+And so suddenly you make everyone
+
+13
+00:00:28,610 --> 00:00:30,370
+accountable, in the sense that, okay,
+
+14
+00:00:30,370 --> 00:00:31,730
+you can cheat if you want.
+
+15
+00:00:31,730 --> 00:00:32,890
+You can try to double spend.
+
+16
+00:00:33,630 --> 00:00:35,070
+But you're going to get caught.
+
+17
+00:00:35,070 --> 00:00:36,430
+And there is no way around.
+
+18
+00:00:36,430 --> 00:00:39,470
+There's going to be an undeniable
+proof of fraud that will be generated.
+
+19
+00:00:39,470 --> 00:00:41,790
+And everyone will see
+that you're responsible.
+
+20
+00:00:41,790 --> 00:00:45,430
+And so if you think about it twice,
+
+21
+00:00:46,270 --> 00:00:49,400
+if you know that, you're going to think
+twice before cheating.

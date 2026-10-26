@@ -1,0 +1,82 @@
+1
+00:00:00,140 --> 00:00:02,220
+So with Acacia, what that meant was
+
+2
+00:00:02,220 --> 00:00:03,900
+they could, the investor could have
+
+3
+00:00:03,900 --> 00:00:05,670
+AUDM stablecoin,
+
+4
+00:00:06,470 --> 00:00:08,630
+agreed to subscribe to the fund
+
+5
+00:00:08,630 --> 00:00:10,710
+and purchase those units at a set price.
+
+6
+00:00:10,710 --> 00:00:12,230
+And as soon as they agreed to that,
+
+7
+00:00:12,230 --> 00:00:14,710
+immediately those funds
+and those units would swap.
+
+8
+00:00:14,710 --> 00:00:18,550
+So essentially they, in real time,
+as soon as they made that payment,
+
+9
+00:00:18,550 --> 00:00:20,150
+got those units issued to them.
+
+10
+00:00:20,150 --> 00:00:21,830
+And through the platform, they could see it.
+
+11
+00:00:21,830 --> 00:00:24,470
+They could go on the block explorer,
+see that transaction.
+
+12
+00:00:24,470 --> 00:00:25,650
+[Host] Fantastic.
+
+13
+00:00:25,650 --> 00:00:28,810
+Instantaneous versus
+multi-day, multi-week.
+
+14
+00:00:28,810 --> 00:00:31,610
+The other side of it too, when you
+kind of come to that conclusion,
+
+15
+00:00:31,610 --> 00:00:33,530
+redemption, same thing but in reverse.
+
+16
+00:00:33,530 --> 00:00:35,770
+Rather than having to worry about,
+
+17
+00:00:35,770 --> 00:00:38,820
+am I going to receive my money
+once I complete this redemption?
+
+18
+00:00:39,340 --> 00:00:40,890
+They could click a button,
+
+19
+00:00:40,890 --> 00:00:44,600
+agree to a price and immediately
+have those assets swapped again.

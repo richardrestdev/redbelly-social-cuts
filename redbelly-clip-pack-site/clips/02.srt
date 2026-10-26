@@ -1,0 +1,75 @@
+1
+00:00:00,150 --> 00:00:02,630
+For Ethereum, if you want
+to change the protocol,
+
+2
+00:00:02,630 --> 00:00:05,430
+what had been done in the past
+is called a hard fork.
+
+3
+00:00:05,430 --> 00:00:06,790
+You end up with two versions, right?
+
+4
+00:00:06,790 --> 00:00:08,870
+There is the old version,
+there is the new version.
+
+5
+00:00:08,870 --> 00:00:10,550
+In Redbelly it's slightly different,
+
+6
+00:00:10,550 --> 00:00:13,730
+in the sense that everyone
+who is running the protocol
+
+7
+00:00:14,360 --> 00:00:17,960
+knows from day one what they have accepted,
+
+8
+00:00:17,960 --> 00:00:19,480
+which is essentially the code base.
+It's like the constitution, right?
+
+9
+00:00:19,480 --> 00:00:21,240
+They all agreed to the code base,
+
+10
+00:00:21,240 --> 00:00:25,160
+which says that if at some point
+the governance decides to change
+
+11
+00:00:25,160 --> 00:00:27,710
+the version of the protocol,
+then the protocol will change.
+
+12
+00:00:29,060 --> 00:00:30,180
+Whether you like it or not.
+
+13
+00:00:30,180 --> 00:00:32,740
+So you run your node, the code executes,
+
+14
+00:00:32,740 --> 00:00:35,460
+and the code itself says, oh,
+
+15
+00:00:35,460 --> 00:00:38,300
+the governance tells us
+to change the version.
+
+16
+00:00:38,300 --> 00:00:40,250
+I'm not gonna wait for the human user
+
+17
+00:00:40,250 --> 00:00:43,570
+to instruct me to change the version.
