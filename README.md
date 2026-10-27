@@ -23,6 +23,23 @@
   <img src="https://img.shields.io/badge/subtitles-burned%20in%20%2B%20SRT-1d3140" alt="Subtitles burned in plus SRT">
 </p>
 
+<p align="center">
+  <a href="https://redbelly-social-cuts.vercel.app">
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="docs/screenshots/hero-light.png">
+      <img src="docs/screenshots/hero-dark.png" alt="Review site home page: the headline Six moments. One point each. beside a fan of the six clips">
+    </picture>
+  </a>
+</p>
+
+## Overview
+
+Redbelly Insights has a back catalogue of long-form interviews with partners and builders. This pack turns the six strongest moments from the latest episodes into short posts that make one clear point each, so the Redbelly and DAO accounts can share them while the show relaunches as *Off Paper - Powered by Tokeniser*.
+
+Every clip opens on a hook headline with the speaker's name and role, keeps the speaker in frame, and carries subtitles both burned into the picture and as a separate `.srt` file.
+
+## The clips
+
 <table align="center">
   <tr>
     <td align="center"><a href="clips/01.mp4"><img src="posters/01.jpg" width="120" alt="Clip 01"></a><br><sub><b>01</b> · 49 s</sub></td>
@@ -33,14 +50,6 @@
     <td align="center"><a href="clips/06.mp4"><img src="posters/06.jpg" width="120" alt="Clip 06"></a><br><sub><b>06</b> · 41 s</sub></td>
   </tr>
 </table>
-
-## Overview
-
-Redbelly Insights has a back catalogue of long-form interviews with partners and builders. This pack turns the six strongest moments from the latest episodes into short posts that make one clear point each, so the Redbelly and DAO accounts can share them while the show relaunches as *Off Paper - Powered by Tokeniser*.
-
-Every clip opens on a hook headline with the speaker's name and role, keeps the speaker in frame, and carries subtitles both burned into the picture and as a separate `.srt` file.
-
-## The clips
 
 | # | Hook | Speaker | Topic | Source | Files |
 |---|---|---|---|---|---|
@@ -59,6 +68,55 @@ Full timestamps, source links, the point each clip makes and a suggested post ca
 |---|---|
 | Six vertical clips with subtitles | [`clips/`](clips): `01.mp4` to `06.mp4` with subtitles burned in, plus a matching `.srt` for each |
 | Source episode and timestamp for each clip, with a suggested post caption | [`clip_list.md`](clip_list.md) and [`clip_list.csv`](clip_list.csv) |
+
+## Review site
+
+[`index.html`](index.html) is a single-page review site for the whole pack. It follows the system light or dark theme and works at phone width.
+
+- **Live:** [redbelly-social-cuts.vercel.app](https://redbelly-social-cuts.vercel.app)
+- **Locally:** open `index.html` in a browser, or serve the folder:
+
+  ```bash
+  python3 -m http.server 8000   # then open http://localhost:8000
+  ```
+
+### Every clip with its context
+
+Each clip plays beside the point it makes, the speaker, a cue strip of its subtitles, the source timestamps and a post caption that copies in one click.
+
+<p align="center">
+  <img src="docs/screenshots/clip-card.png" alt="Clip 01 card: the vertical video beside its headline, speaker, subtitle cue strip, source timestamps and post caption">
+</p>
+
+### Where every clip comes from
+
+Each source episode is drawn to scale, with a red block marking exactly where each clip was cut.
+
+<p align="center">
+  <img src="docs/screenshots/sources.png" alt="Sources timeline: episodes 28, 25 and 26 drawn to scale with the position of each clip">
+</p>
+
+### Measured, not assumed
+
+Loudness meters, the spec table and the brief requirements, all measured from the exported files.
+
+<p align="center">
+  <img src="docs/screenshots/quality-checks.png" alt="Quality section: loudness meters, spec table with a pass for every clip, and the brief requirements checklist">
+</p>
+
+### On a phone
+
+<p align="center">
+  <img src="docs/screenshots/mobile.png" width="720" alt="The review site at phone width: the home page, the Project Acacia clips and the sources timeline">
+</p>
+
+### Deploying
+
+The site is static, with no build step. Keep `clips/` and `posters/` next to `index.html`.
+
+- **Vercel:** import the repository, choose the *Other* framework preset, leave the build command empty and use the repository root as the output directory.
+- **GitHub Pages:** Settings → Pages → Deploy from a branch → `main`, `/ (root)`.
+- **Any static host** (Netlify, an S3 bucket): upload the folder as it is.
 
 ## Specifications
 
@@ -89,25 +147,6 @@ python3 tools/verify.py --write  # also refresh verification.md
 
 Requires Python 3.8 or later with `ffmpeg` and `ffprobe` on the PATH. The latest results are in [`verification.md`](verification.md).
 
-## Review site
-
-[`index.html`](index.html) is a single-page review site. It plays every clip beside its subtitles and shows where each clip sits in its source episode, the measured specs and posting notes for each platform.
-
-- **Live:** [redbelly-social-cuts.vercel.app](https://redbelly-social-cuts.vercel.app)
-- **Locally:** open `index.html` in a browser, or serve the folder:
-
-  ```bash
-  python3 -m http.server 8000   # then open http://localhost:8000
-  ```
-
-### Deploying
-
-The site is static, with no build step. Keep `clips/` and `posters/` next to `index.html`.
-
-- **Vercel:** import the repository, choose the *Other* framework preset, leave the build command empty and use the repository root as the output directory.
-- **GitHub Pages:** Settings → Pages → Deploy from a branch → `main`, `/ (root)`.
-- **Any static host** (Netlify, an S3 bucket): upload the folder as it is.
-
 ## Posting
 
 | Platform | How to post |
@@ -129,6 +168,8 @@ The subtitles are burned in, so every clip reads with the sound off.
 ├── clip_list.md        Source episode, timestamp, speaker, point and caption for each clip
 ├── clip_list.csv       The same list as a spreadsheet
 ├── verification.md     Measured specs and checks for every file
+├── docs/
+│   └── screenshots/    Screenshots of the review site used in this README
 └── tools/
     └── verify.py       Checks the files against the brief and writes verification.md
 ```
